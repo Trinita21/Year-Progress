@@ -7,4 +7,6 @@ function GetProgress(today_date, present_year, next_year) {
     ((today_date - present_year) / (next_year - present_year)) * 100;
   return progress;
 }
-console.log(GetProgress(today_date, present_year, next_year));
+let year_progress = GetProgress(today_date, present_year, next_year);
+
+document.getElementById("progress_bar").setAttribute("value", year_progress);
