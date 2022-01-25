@@ -1,0 +1,22 @@
+body {
+  background-color: #000814;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffc300;
+}
+#heading {
+  text-align: center;
+  margin: 3rem;
+}
+.progress_bar {
+  padding: 2rem;
+}
+#result {
+  padding: 2rem;
+}
